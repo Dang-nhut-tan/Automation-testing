@@ -38,8 +38,7 @@ export default defineConfig({
       slowMo: 1000,
       args:["--start-maximized"]
     },
-    video:"retain-on-first-failure",
-    screenshot:"on-first-failure"
+    video:"retain-on-first-failure"
   },
 
   /* Configure projects for major browsers */

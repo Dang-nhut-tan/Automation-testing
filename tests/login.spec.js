@@ -33,9 +33,6 @@ test("Đăng nhập thất bại,với email là khoảng trắng",async({page})
         await loginPage.fillPassword("");
         await loginPage.clickLoginButton();
         await expect(loginPage.errorMessageEmail).toHaveText("Email là bắt buộc!");
-        await expect(page).toHaveScreenshot('login.png',{fullPage:true})
-
-
 })
 
 })
