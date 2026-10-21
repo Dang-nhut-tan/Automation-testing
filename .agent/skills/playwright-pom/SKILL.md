@@ -1,8 +1,7 @@
 ---
-
-name: skill-playwright
+name: playwright-pom
 description: Playwright JavaScript Page Object Model expert skill for creating maintainable and scalable test automation using POM architecture.
-------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Skills: Playwright JavaScript Page Object Model (POM)
 
@@ -106,3 +105,4 @@ All code I produce will meet these standards:
 ---
 
 **Skills Activated**: Playwright JavaScript Page Object Model Expert
+
