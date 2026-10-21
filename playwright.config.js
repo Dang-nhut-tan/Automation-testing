@@ -19,7 +19,7 @@ export default defineConfig({
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
+  retries:3,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
@@ -30,20 +30,22 @@ export default defineConfig({
     //  baseURL: 'https://vivainternational.vn',
      headless: false,
 
+
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    viewport:null,
     launchOptions: {
       slowMo: 1000,
+      args:["--start-maximized"]
     },
     video:"retain-on-first-failure",
-    screenshot:"on"
+    screenshot:"on-first-failure"
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
     },
 
     // {
