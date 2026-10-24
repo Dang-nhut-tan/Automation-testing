@@ -1,0 +1,303 @@
+- generic [ref=e2]:
+  - generic [ref=e38] [cursor=pointer]:
+    - alert [ref=e39]:
+      - generic [ref=e43]: Đăng nhập thành công!
+    - button "close" [ref=e44]
+    - progressbar "notification timer" [ref=e47]
+  - status [ref=e4]: Navigated to dashboard page.
+  - generic [ref=e48]:
+    - complementary [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - link [ref=e52] [cursor=pointer]:
+            - /url: /dashboard
+            - img "Viva International" [ref=e53]
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Bảng Điều Khiển" [ref=e56] [cursor=pointer]:
+                - /url: /quan-tri/dashboard
+            - listitem [ref=e64]:
+              - button "Danh Mục Sản Phẩm" [ref=e65] [cursor=pointer]
+            - listitem [ref=e78]:
+              - link "Khách Hàng" [ref=e79] [cursor=pointer]:
+                - /url: /quan-tri/customers
+            - listitem [ref=e86]:
+              - link "Đơn Hàng" [ref=e87] [cursor=pointer]:
+                - /url: /quan-tri/orders
+            - listitem [ref=e92]:
+              - link "Nhân Viên" [ref=e93] [cursor=pointer]:
+                - /url: /quan-tri/our-staff
+            - listitem [ref=e98]:
+              - link "Quản Lý Lỗi" [ref=e99] [cursor=pointer]:
+                - /url: /quan-tri/bug-reports
+            - listitem [ref=e103]:
+              - link "Cài Đặt" [ref=e104] [cursor=pointer]:
+                - /url: /quan-tri/settings?settingTab=common-settings
+            - listitem [ref=e109]:
+              - button "Quốc Tế Hoá" [ref=e110] [cursor=pointer]
+            - listitem [ref=e117]:
+              - button "Cửa Hàng Trực Tuyến" [ref=e118] [cursor=pointer]
+            - listitem [ref=e126]:
+              - button "Trang" [ref=e127] [cursor=pointer]
+        - button "Đăng Xuất" [ref=e141] [cursor=pointer]
+    - generic [ref=e146]:
+      - banner [ref=e147]:
+        - generic [ref=e148]:
+          - button [ref=e149] [cursor=pointer]
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - button "Toggle color mode" [ref=e154] [cursor=pointer]
+            - listitem [ref=e157]:
+              - button "0" [ref=e158] [cursor=pointer]
+            - listitem [ref=e163]:
+              - button "Q" [ref=e164] [cursor=pointer]
+      - main [ref=e165]:
+        - generic [ref=e166]:
+          - heading "Tổng Quan Bảng Điều Khiển" [level=1] [ref=e167]
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - generic [ref=e172]:
+                - generic [ref=e176]:
+                  - paragraph [ref=e177]: Đơn Hôm Nay
+                  - paragraph [ref=e178]: ₫0.00
+                - generic [ref=e179]:
+                  - generic [ref=e180]: "Tiền Mặt : ₫0.00"
+                  - generic [ref=e181]: "Thẻ : ₫0.00"
+                  - generic [ref=e182]: "Công Nợ : ₫0.00"
+              - generic [ref=e185]:
+                - generic [ref=e189]:
+                  - paragraph [ref=e190]: Đơn Hôm Qua
+                  - paragraph [ref=e191]: ₫0.00
+                - generic [ref=e192]:
+                  - generic [ref=e193]: "Tiền Mặt : ₫0.00"
+                  - generic [ref=e194]: "Thẻ : ₫0.00"
+                  - generic [ref=e195]: "Công Nợ : ₫0.00"
+              - generic [ref=e203]:
+                - paragraph [ref=e204]: Tháng Này
+                - paragraph [ref=e205]: ₫59246250.00
+              - generic [ref=e211]:
+                - paragraph [ref=e212]: Tháng Trước
+                - paragraph [ref=e213]: ₫0.00
+              - generic [ref=e219]:
+                - paragraph [ref=e220]: Tổng Doanh Thu
+                - paragraph [ref=e221]: ₫2980131980.00
+            - generic [ref=e222]:
+              - generic [ref=e230]:
+                - heading "Tổng Đơn Hàng" [level=6] [ref=e231]
+                - paragraph [ref=e232]: "56"
+              - generic [ref=e240]:
+                - heading "Đơn Chờ Xử Lý 0" [level=6] [ref=e241]
+                - paragraph [ref=e242]: "40"
+              - generic [ref=e251]:
+                - heading "Đơn Đang Xử Lý" [level=6] [ref=e252]
+                - paragraph [ref=e253]: "3"
+              - generic [ref=e259]:
+                - heading "Đơn Đã Giao" [level=6] [ref=e260]
+                - paragraph [ref=e261]: "10"
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - paragraph [ref=e264]: Doanh Thu Theo Tuần
+                - list [ref=e266]:
+                  - listitem [ref=e267]:
+                    - button "Doanh Số" [ref=e268] [cursor=pointer]
+                  - listitem [ref=e269]:
+                    - button "Đơn Hàng" [ref=e270] [cursor=pointer]
+              - paragraph [ref=e273]: Sản Phẩm Bán Chạy
+          - heading "Đơn Hàng Gần Đây" [level=1] [ref=e276]
+          - generic [ref=e277]:
+            - table [ref=e279]:
+              - rowgroup [ref=e280]:
+                - row [ref=e281]:
+                  - cell "SỐ HOÁ ĐƠN" [ref=e282]
+                  - cell "THỜI GIAN ĐẶT" [ref=e283]
+                  - cell "Tên Khách Hàng" [ref=e284]
+                  - cell "HÌNH THỨC" [ref=e285]
+                  - cell "SỐ TIỀN" [ref=e286]
+                  - cell "TRẠNG THÁI" [ref=e287]
+                  - cell "THAO TÁC" [ref=e288]
+                  - cell "HOÁ ĐƠN" [ref=e289]
+              - rowgroup [ref=e290]:
+                - row [ref=e291]:
+                  - cell "10055" [ref=e292]
+                  - cell "23/10/2026 9:09 PM" [ref=e293]
+                  - cell "Nguyễn Gia Hân" [ref=e294]
+                  - cell "COD" [ref=e295]
+                  - cell "₫205000.00" [ref=e296]
+                  - cell "Chờ Xử Lý" [ref=e298]
+                  - cell [ref=e301]:
+                    - combobox "Đổi trạng thái đơn hàng" [ref=e302]:
+                      - option "Chờ Xử Lý (hiện tại)" [disabled]
+                      - option "Đang Xử Lý"
+                      - option "Đã Giao"
+                      - option "Đã Huỷ"
+                  - cell [ref=e303]:
+                    - generic [ref=e304]:
+                      - button [ref=e305] [cursor=pointer]:
+                        - paragraph [ref=e306]
+                      - link [ref=e312] [cursor=pointer]:
+                        - /url: /quan-tri/order/zglowae3lk9fu72
+                        - paragraph [ref=e313]
+                - row [ref=e317]:
+                  - cell "10054" [ref=e318]
+                  - cell "23/10/2026 7:09 PM" [ref=e319]
+                  - cell "Khanh Nguyen" [ref=e320]
+                  - cell "VietQR" [ref=e321]
+                  - cell "₫182000.00" [ref=e322]
+                  - cell "Chờ Xử Lý" [ref=e324]
+                  - cell [ref=e327]:
+                    - combobox "Đổi trạng thái đơn hàng" [ref=e328]:
+                      - option "Chờ Xử Lý (hiện tại)" [disabled]
+                      - option "Đang Xử Lý"
+                      - option "Đã Giao"
+                      - option "Đã Huỷ"
+                  - cell [ref=e329]:
+                    - generic [ref=e330]:
+                      - button [ref=e331] [cursor=pointer]:
+                        - paragraph [ref=e332]
+                      - link [ref=e338] [cursor=pointer]:
+                        - /url: /quan-tri/order/vbj3n2b0wa0shse
+                        - paragraph [ref=e339]
+                - row [ref=e343]:
+                  - cell "10053" [ref=e344]
+                  - cell "23/10/2026 5:36 PM" [ref=e345]
+                  - cell "Min Phut" [ref=e346]
+                  - cell "COD" [ref=e347]
+                  - cell "₫252500.00" [ref=e348]
+                  - cell "Chờ Xử Lý" [ref=e350]
+                  - cell [ref=e353]:
+                    - combobox "Đổi trạng thái đơn hàng" [ref=e354]:
+                      - option "Chờ Xử Lý (hiện tại)" [disabled]
+                      - option "Đang Xử Lý"
+                      - option "Đã Giao"
+                      - option "Đã Huỷ"
+                  - cell [ref=e355]:
+                    - generic [ref=e356]:
+                      - button [ref=e357] [cursor=pointer]:
+                        - paragraph [ref=e358]
+                      - link [ref=e364] [cursor=pointer]:
+                        - /url: /quan-tri/order/vzo6d6844b1dvz2
+                        - paragraph [ref=e365]
+                - row [ref=e369]:
+                  - cell "10052" [ref=e370]
+                  - cell "22/10/2026 8:52 PM" [ref=e371]
+                  - cell "Min Phut" [ref=e372]
+                  - cell "COD" [ref=e373]
+                  - cell "₫252500.00" [ref=e374]
+                  - cell "Chờ Xử Lý" [ref=e376]
+                  - cell [ref=e379]:
+                    - combobox "Đổi trạng thái đơn hàng" [ref=e380]:
+                      - option "Chờ Xử Lý (hiện tại)" [disabled]
+                      - option "Đang Xử Lý"
+                      - option "Đã Giao"
+                      - option "Đã Huỷ"
+                  - cell [ref=e381]:
+                    - generic [ref=e382]:
+                      - button [ref=e383] [cursor=pointer]:
+                        - paragraph [ref=e384]
+                      - link [ref=e390] [cursor=pointer]:
+                        - /url: /quan-tri/order/ylky2iaiymwpugz
+                        - paragraph [ref=e391]
+                - row [ref=e395]:
+                  - cell "10051" [ref=e396]
+                  - cell "22/10/2026 3:35 PM" [ref=e397]
+                  - cell "Đặng Nhựt Tân" [ref=e398]
+                  - cell "VietQR" [ref=e399]
+                  - cell "₫54751500.00" [ref=e400]
+                  - cell "Đã Giao" [ref=e402]
+                  - cell [ref=e405]:
+                    - combobox "Đổi trạng thái đơn hàng" [ref=e406]:
+                      - option "Chờ Xử Lý"
+                      - option "Đang Xử Lý"
+                      - option "Đã Giao (hiện tại)" [disabled]
+                      - option "Đã Huỷ"
+                  - cell [ref=e407]:
+                    - generic [ref=e408]:
+                      - button [ref=e409] [cursor=pointer]:
+                        - paragraph [ref=e410]
+                      - link [ref=e416] [cursor=pointer]:
+                        - /url: /quan-tri/order/b7lkow2ct63g796
+                        - paragraph [ref=e417]
+                - row [ref=e421]:
+                  - cell "10050" [ref=e422]
+                  - cell "15/10/2026 8:07 PM" [ref=e423]
+                  - cell "Min Phut" [ref=e424]
+                  - cell "COD" [ref=e425]
+                  - cell "₫252500.00" [ref=e426]
+                  - cell "Chờ Xử Lý" [ref=e428]
+                  - cell [ref=e431]:
+                    - combobox "Đổi trạng thái đơn hàng" [ref=e432]:
+                      - option "Chờ Xử Lý (hiện tại)" [disabled]
+                      - option "Đang Xử Lý"
+                      - option "Đã Giao"
+                      - option "Đã Huỷ"
+                  - cell [ref=e433]:
+                    - generic [ref=e434]:
+                      - button [ref=e435] [cursor=pointer]:
+                        - paragraph [ref=e436]
+                      - link [ref=e442] [cursor=pointer]:
+                        - /url: /quan-tri/order/qjimc2z98pzd1b4
+                        - paragraph [ref=e443]
+                - row [ref=e447]:
+                  - cell "10049" [ref=e448]
+                  - cell "15/10/2026 8:04 PM" [ref=e449]
+                  - cell "Min Phut" [ref=e450]
+                  - cell "COD" [ref=e451]
+                  - cell "₫205000.00" [ref=e452]
+                  - cell "Chờ Xử Lý" [ref=e454]
+                  - cell [ref=e457]:
+                    - combobox "Đổi trạng thái đơn hàng" [ref=e458]:
+                      - option "Chờ Xử Lý (hiện tại)" [disabled]
+                      - option "Đang Xử Lý"
+                      - option "Đã Giao"
+                      - option "Đã Huỷ"
+                  - cell [ref=e459]:
+                    - generic [ref=e460]:
+                      - button [ref=e461] [cursor=pointer]:
+                        - paragraph [ref=e462]
+                      - link [ref=e468] [cursor=pointer]:
+                        - /url: /quan-tri/order/kz64vc2puu3d92y
+                        - paragraph [ref=e469]
+                - row [ref=e473]:
+                  - cell "10048" [ref=e474]
+                  - cell "15/10/2026 8:03 PM" [ref=e475]
+                  - cell "Le Minh Phuc" [ref=e476]
+                  - cell "COD" [ref=e477]
+                  - cell "₫205000.00" [ref=e478]
+                  - cell "Chờ Xử Lý" [ref=e480]
+                  - cell [ref=e483]:
+                    - combobox "Đổi trạng thái đơn hàng" [ref=e484]:
+                      - option "Chờ Xử Lý (hiện tại)" [disabled]
+                      - option "Đang Xử Lý"
+                      - option "Đã Giao"
+                      - option "Đã Huỷ"
+                  - cell [ref=e485]:
+                    - generic [ref=e486]:
+                      - button [ref=e487] [cursor=pointer]:
+                        - paragraph [ref=e488]
+                      - link [ref=e494] [cursor=pointer]:
+                        - /url: /quan-tri/order/3uglu494jhxm7xk
+                        - paragraph [ref=e495]
+            - generic [ref=e500]:
+              - generic [ref=e501]: Hiển thị 1-8 trong tổng 56
+              - navigation "Điều hướng bảng" [ref=e503]:
+                - list [ref=e504]:
+                  - listitem [ref=e505]:
+                    - button "Previous" [disabled] [ref=e506] [cursor=pointer]
+                  - listitem [ref=e509]:
+                    - button "1" [ref=e510] [cursor=pointer]
+                  - listitem [ref=e511]:
+                    - button "2" [ref=e512] [cursor=pointer]
+                  - listitem [ref=e513]:
+                    - button "3" [ref=e514] [cursor=pointer]
+                  - listitem [ref=e515]:
+                    - button "4" [ref=e516] [cursor=pointer]
+                  - listitem [ref=e517]:
+                    - button "5" [ref=e518] [cursor=pointer]
+                  - listitem [ref=e519]:
+                    - button "6" [ref=e520] [cursor=pointer]
+                  - listitem [ref=e521]:
+                    - button "7" [ref=e522] [cursor=pointer]
+                  - listitem [ref=e523]:
+                    - button "Next" [ref=e524] [cursor=pointer]
+  - button "Báo lỗi" [ref=e527] [cursor=pointer]:
+    - generic [aria-hidden] [ref=e528]: 🐞

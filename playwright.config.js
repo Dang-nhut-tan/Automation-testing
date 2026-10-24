@@ -35,7 +35,6 @@ export default defineConfig({
     trace: 'on-first-retry',
     viewport:null,
     launchOptions: {
-      slowMo: 1000,
       args:["--start-maximized"]
     },
     video:"retain-on-first-failure"

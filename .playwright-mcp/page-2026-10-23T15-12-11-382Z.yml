@@ -1,0 +1,22 @@
+- generic [ref=e2]:
+  - status [ref=e4]: Navigated to login page.
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - heading "Đăng Nhập" [level=1] [ref=e12]
+      - generic [ref=e13]:
+        - generic [ref=e14]: Email
+        - textbox "ten@viva.vn" [ref=e15]: "\"quantri@vivainternational.vn\""
+        - generic [ref=e16]: Mật Khẩu
+        - generic [ref=e17]:
+          - textbox "***************" [ref=e18]: "\"8u5xJl1tzEz7bhXT0wQH\""
+          - button "Hiện mật khẩu" [ref=e19] [cursor=pointer]
+        - button "Đăng Nhập" [ref=e23] [cursor=pointer]
+        - separator [ref=e24]
+        - button "Đăng Nhập Với Facebook" [disabled] [ref=e25] [cursor=pointer]
+        - button "Đăng Nhập Với Google" [disabled] [ref=e29] [cursor=pointer]
+      - paragraph [ref=e33]:
+        - link "Quên Mật Khẩu" [ref=e34] [cursor=pointer]:
+          - /url: /quan-tri/forgot-password
+      - paragraph [ref=e35]:
+        - link "Tạo Tài Khoản" [ref=e36] [cursor=pointer]:
+          - /url: /quan-tri/signup

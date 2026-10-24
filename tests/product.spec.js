@@ -1,0 +1,46 @@
+import { test, expect } from '@playwright/test';
+import { ProductPage } from './pages/productPage';
+import { LoginPage } from './pages/loginBage';
+import {product} from './data/product'
+
+import dotenv from 'dotenv';
+dotenv.config();
+
+test.describe('Thêm sản phẩm', () => {
+    /** @type {LoginPage} */
+    let loginPage;
+
+    /** @type {ProductPage} */
+    let productPage;
+
+    test.beforeEach(async ({ page }) => {
+        loginPage = new LoginPage(page);
+        productPage = new ProductPage(page);
+
+        await loginPage.loginSucess();
+        await productPage.navigateToProductPage();
+    });
+
+    test('thêm sản phẩm thành công', async () => {
+
+        await productPage.addProduct(product);
+
+        await expect(
+            productPage.productNames.filter({ hasText: product.name })
+        ).toBeVisible();
+    });
+
+    for (const testCase of productFactory.productTestCases) {
+        test(`data-driven: ${testCase.testName}`, async () => {
+            const product = productFactory.createProductWithFaker(
+                testCase.overrides
+            );
+
+            await productPage.addProduct(product);
+
+            await expect(
+                productPage.productNames.filter({ hasText: product.name })
+            ).toBeVisible();
+        });
+    }
+});
