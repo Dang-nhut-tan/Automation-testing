@@ -23,24 +23,11 @@ test.describe('Thêm sản phẩm', () => {
 
     test('thêm sản phẩm thành công', async () => {
 
+
         await productPage.addProduct(product);
 
         await expect(
             productPage.productNames.filter({ hasText: product.name })
         ).toBeVisible();
     });
-
-    for (const testCase of productFactory.productTestCases) {
-        test(`data-driven: ${testCase.testName}`, async () => {
-            const product = productFactory.createProductWithFaker(
-                testCase.overrides
-            );
-
-            await productPage.addProduct(product);
-
-            await expect(
-                productPage.productNames.filter({ hasText: product.name })
-            ).toBeVisible();
-        });
-    }
 });

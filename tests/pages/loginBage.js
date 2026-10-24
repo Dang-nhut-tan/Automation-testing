@@ -9,7 +9,8 @@ export class LoginPage extends BasePage {
     this.emailInput = page.getByPlaceholder("ten@viva.vn");
     this.passWord = page.locator('[name="password"]');
     this.loginButton =  page.getByRole('button', { name: 'Đăng Nhập' , exact: true });
-    this.errorMessageEmail =   page.getByText('Email là bắt buộc!', { exact: true })
+    this.errorMessageEmail =   page.getByText('Email là bắt buộc!', { exact: true });
+    this.errorMessagePassword = page.getByText('Mật Khẩu là bắt buộc!', { exact: true });
   }
 
   async navigateToLoginPage(urlLoginPage) {
@@ -42,4 +43,3 @@ export class LoginPage extends BasePage {
     ]);
   }
 }
-
