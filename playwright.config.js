@@ -35,7 +35,8 @@ export default defineConfig({
     trace: 'on-first-retry',
     viewport:null,
     launchOptions: {
-      args:["--start-maximized"]
+      args:["--start-maximized"],
+      slowMo: 100,
     },
     video:"retain-on-first-failure"
   },
@@ -84,4 +85,3 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
-

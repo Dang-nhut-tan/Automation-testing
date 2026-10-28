@@ -1,0 +1,269 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - button "Báo lỗi" [ref=f1e5] [cursor=pointer]:
+      - generic [aria-hidden] [ref=f1e6]: 🐞
+    - region "Notifications Alt+T"
+    - generic [ref=f1e377]:
+      - generic [ref=f1e380]:
+        - generic [ref=f1e381]:
+          - text: Hỗ trợ 24/7, cần giúp đỡ?
+          - link "096 607 70 88" [ref=f1e384] [cursor=pointer]:
+            - /url: tel:096 607 70 88
+        - generic [ref=f1e385]:
+          - link "Tài khoản của tôi" [ref=f1e386] [cursor=pointer]:
+            - /url: /user/my-account
+          - generic [ref=f1e387]: "|"
+          - link [ref=f1e388] [cursor=pointer]:
+            - /url: /auth/login
+      - generic [ref=f1e393]:
+        - generic [ref=f1e395]:
+          - generic [ref=f1e396]:
+            - button "Danh mục" [ref=f1e397] [cursor=pointer]
+            - generic [ref=f1e399]:
+              - 'textbox "Tìm sản phẩm (vd: cà phê phin, cà phê hoà tan...)" [ref=f1e400]'
+              - button "Tìm kiếm" [ref=f1e401] [cursor=pointer]
+          - link "Trang chủ Viva International" [ref=f1e405] [cursor=pointer]:
+            - /url: /
+            - img "Viva International" [ref=f1e407]
+          - generic [ref=f1e408]:
+            - link "Đăng nhập" [ref=f1e409] [cursor=pointer]:
+              - /url: /auth/login
+            - button "Giỏ hàng" [ref=f1e413] [cursor=pointer]:
+              - generic [ref=f1e414]: "1"
+        - generic [ref=f1e420]:
+          - navigation [ref=f1e425]:
+            - link "Giới thiệu" [ref=f1e426] [cursor=pointer]:
+              - /url: /about-us
+            - link "Liên hệ" [ref=f1e427] [cursor=pointer]:
+              - /url: /contact-us
+            - button "Trang" [ref=f1e429] [cursor=pointer]
+            - link [ref=f1e433] [cursor=pointer]:
+              - /url: /offer
+          - button "Tiếng Việt" [ref=f1e440] [cursor=pointer]
+      - generic [ref=f1e443]:
+        - generic [ref=f1e445]:
+          - generic [ref=f1e446]:
+            - heading "01. Thông tin nhận hàng" [level=2] [ref=f1e448]
+            - generic [ref=f1e449]:
+              - generic [ref=f1e450]:
+                - generic [ref=f1e451]: Họ và tên
+                - textbox "Nguyễn Văn A" [ref=f1e453]
+              - generic [ref=f1e454]:
+                - generic [ref=f1e455]: Số điện thoại
+                - textbox "0901 234 567" [ref=f1e457]
+              - generic [ref=f1e458]:
+                - generic [ref=f1e459]: Email (không bắt buộc)
+                - textbox "email@vidu.com — để nhận thông báo đơn hàng" [ref=f1e461]
+              - generic [ref=f1e462]:
+                - generic [ref=f1e463]: Địa chỉ
+                - textbox "Số nhà, tên đường" [ref=f1e465]
+              - generic [ref=f1e466]:
+                - generic [ref=f1e467]: Phường/Xã
+                - textbox "Phường Bến Nghé" [ref=f1e469]
+              - generic [ref=f1e470]:
+                - generic [ref=f1e471]: Tỉnh/Thành phố
+                - combobox [ref=f1e472]:
+                  - option "— Chọn Tỉnh/Thành phố —" [selected]
+                  - option "An Giang"
+                  - option "Bắc Ninh"
+                  - option "Cà Mau"
+                  - option "Cao Bằng"
+                  - option "Cần Thơ"
+                  - option "Đà Nẵng"
+                  - option "Đắk Lắk"
+                  - option "Điện Biên"
+                  - option "Đồng Nai"
+                  - option "Đồng Tháp"
+                  - option "Gia Lai"
+                  - option "Hà Nội"
+                  - option "Hà Tĩnh"
+                  - option "Hải Phòng"
+                  - option "Huế"
+                  - option "Hưng Yên"
+                  - option "Khánh Hòa"
+                  - option "Lai Châu"
+                  - option "Lâm Đồng"
+                  - option "Lạng Sơn"
+                  - option "Lào Cai"
+                  - option "Nghệ An"
+                  - option "Ninh Bình"
+                  - option "Phú Thọ"
+                  - option "Quảng Ngãi"
+                  - option "Quảng Ninh"
+                  - option "Quảng Trị"
+                  - option "Sơn La"
+                  - option "Tây Ninh"
+                  - option "Thái Nguyên"
+                  - option "Thanh Hóa"
+                  - option "TP. Hồ Chí Minh"
+                  - option "Tuyên Quang"
+                  - option "Vĩnh Long"
+          - generic [ref=f1e473]:
+            - heading "02. Giao hàng" [level=2] [ref=f1e474]
+            - generic [ref=f1e475]: Phí Vận Chuyển
+            - paragraph [ref=f1e476]: Mua thêm 450.000₫ nữa để được miễn phí giao hàng
+            - generic [ref=f1e477]:
+              - generic [ref=f1e482] [cursor=pointer]:
+                - generic [ref=f1e490]:
+                  - heading "Giao hàng tận nơi" [level=6] [ref=f1e491]
+                  - paragraph [ref=f1e492]:
+                    - text: "Giao trong 2-4 ngày. Phí:"
+                    - generic [ref=f1e493]: 25.000₫
+                - 'radio "Giao hàng tận nơi Giao trong 2-4 ngày. Phí: 25.000₫" [checked] [ref=f1e494]'
+              - generic [ref=f1e499] [cursor=pointer]:
+                - generic [ref=f1e507]:
+                  - heading "Nhận tại cửa hàng (miễn phí)" [level=6] [ref=f1e508]
+                  - paragraph [ref=f1e509]:
+                    - text: "Nhận tại cửa hàng Viva. Phí:"
+                    - generic [ref=f1e510]: 0₫
+                - 'radio "Nhận tại cửa hàng (miễn phí) Nhận tại cửa hàng Viva. Phí: 0₫" [ref=f1e511]'
+          - generic [ref=f1e512]:
+            - heading "03. Phương Thức Thanh Toán" [level=2] [ref=f1e513]
+            - generic [ref=f1e514]:
+              - generic [ref=f1e518] [cursor=pointer]:
+                - heading "Thanh toán khi nhận hàng (COD)" [level=6] [ref=f1e524]
+                - radio "Thanh toán khi nhận hàng (COD)" [checked] [ref=f1e525]
+              - generic [ref=f1e529] [cursor=pointer]:
+                - heading "Chuyển khoản VietQR" [level=6] [ref=f1e544]
+                - radio "Chuyển khoản VietQR" [ref=f1e545]
+              - generic [ref=f1e549] [cursor=pointer]:
+                - heading "Thẻ tín dụng" [level=6] [ref=f1e554]
+                - radio "Thẻ tín dụng" [ref=f1e555]
+          - generic [ref=f1e556]:
+            - link [ref=f1e558] [cursor=pointer]:
+              - /url: /
+            - button "Xác Nhận Đơn Hàng" [ref=f1e564] [cursor=pointer]
+        - generic [ref=f1e570]:
+          - heading "Tóm Tắt Đơn Hàng" [level=2] [ref=f1e571]
+          - generic [ref=f1e573]:
+            - generic [ref=f1e574] [cursor=pointer]
+            - generic [ref=f1e575]:
+              - link "Cà Phê Test MCP Cart" [ref=f1e576] [cursor=pointer]:
+                - /url: /product/ca-phe-test-mcp-cart
+              - generic [ref=f1e577]: Đơn giá 50.000₫
+              - generic [ref=f1e578]:
+                - generic [ref=f1e579]: 50.000₫
+                - generic [ref=f1e581]:
+                  - button [ref=f1e582] [cursor=pointer]
+                  - paragraph [ref=f1e585]: "1"
+                  - button [ref=f1e586] [cursor=pointer]
+                - button [ref=f1e589] [cursor=pointer]
+          - generic [ref=f1e592]:
+            - text: Tạm Tính
+            - generic [ref=f1e593]: 50.000₫
+          - generic [ref=f1e594]:
+            - text: Phí Vận Chuyển
+            - generic [ref=f1e595]: 25.000₫
+          - generic [ref=f1e596]:
+            - text: Giảm Giá
+            - generic [ref=f1e597]: 0₫
+          - generic [ref=f1e599]:
+            - text: TỔNG CỘNG
+            - generic [ref=f1e600]: 75.000₫
+      - generic [ref=f1e601]:
+        - generic [ref=f1e604]:
+          - img "app download" [ref=f1e606]
+          - generic [ref=f1e607]:
+            - heading "Mua Sắm Cà Phê Mỗi Ngày Cùng Viva" [level=3] [ref=f1e608]
+            - paragraph [ref=f1e609]: Rất nhiều sản phẩm đang chờ bạn khám phá tại cửa hàng Viva. Chọn sản phẩm cà phê yêu thích và nhận ưu đãi đặc biệt.
+            - generic [ref=f1e610]:
+              - link [ref=f1e611] [cursor=pointer]:
+                - /url: https://www.apple.com/app-store/
+                - img "app store" [ref=f1e612]
+              - link [ref=f1e613] [cursor=pointer]:
+                - /url: https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Jun0122&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-lk-1003227-med-hasem-py-Evergreen-Jun0122-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700071429441653_creativeid_600975795576_device_c&gclid=CjwKCAjwwo-WBhAMEiwAV4dybdy60tnQqCSnQ-cXShNnEcxmaBx2I6iwwc_WEqoA5sN9YSLJEXh9fBoC3u4QAvD_BwE&gclsrc=aw.ds
+                - img "play store" [ref=f1e614]
+          - img "app download" [ref=f1e617]
+        - generic [ref=f1e619]:
+          - generic [ref=f1e620]: Miễn Phí Vận Chuyển Từ 500.000₫
+          - generic [ref=f1e629]: Hỗ Trợ 24/7 Mọi Lúc
+          - generic [ref=f1e635]: Thanh Toán An Toàn, Bảo Mật Tuyệt Đối
+          - generic [ref=f1e641]: Ưu Đãi Mới Nhất, Giảm Đến 20%
+        - separator [ref=f1e650]
+        - generic [ref=f1e652]:
+          - generic [ref=f1e653]:
+            - generic [ref=f1e654]:
+              - generic [ref=f1e655]:
+                - heading "Công Ty" [level=3] [ref=f1e656]
+                - list [ref=f1e657]:
+                  - listitem [ref=f1e658]:
+                    - link "Giới Thiệu" [ref=f1e659] [cursor=pointer]:
+                      - /url: /about-us
+                  - listitem [ref=f1e660]:
+                    - link "Liên Hệ" [ref=f1e661] [cursor=pointer]:
+                      - /url: /contact-us
+                  - listitem [ref=f1e662]:
+                    - link "Tuyển Dụng" [ref=f1e663] [cursor=pointer]:
+                      - /url: /checkout#
+                  - listitem [ref=f1e664]:
+                    - link "Tin Tức Mới Nhất" [ref=f1e665] [cursor=pointer]:
+                      - /url: /checkout#
+              - generic [ref=f1e666]:
+                - heading "Danh Mục Nổi Bật" [level=3] [ref=f1e667]
+                - list [ref=f1e668]:
+                  - listitem [ref=f1e669]:
+                    - link "Cà Phê Pha Máy" [ref=f1e670] [cursor=pointer]:
+                      - /url: /search
+                  - listitem [ref=f1e671]:
+                    - link "Cà Phê Phin" [ref=f1e672] [cursor=pointer]:
+                      - /url: /search
+                  - listitem [ref=f1e673]:
+                    - link "Cà Phê Hòa Tan" [ref=f1e674] [cursor=pointer]:
+                      - /url: /search
+                  - listitem [ref=f1e675]:
+                    - link "Cà Phê Rang Xay" [ref=f1e676] [cursor=pointer]:
+                      - /url: /search
+              - generic [ref=f1e677]:
+                - heading "Tài Khoản Của Tôi" [level=3] [ref=f1e678]
+                - list [ref=f1e679]:
+                  - listitem [ref=f1e680]:
+                    - link "Tổng Quan" [ref=f1e681] [cursor=pointer]:
+                      - /url: /checkout#
+                  - listitem [ref=f1e682]:
+                    - link "Đơn Hàng Của Tôi" [ref=f1e683] [cursor=pointer]:
+                      - /url: /checkout#
+                  - listitem [ref=f1e684]:
+                    - link "Đơn Hàng Gần Đây" [ref=f1e685] [cursor=pointer]:
+                      - /url: /checkout#
+                  - listitem [ref=f1e686]:
+                    - link "Cập Nhật Hồ Sơ" [ref=f1e687] [cursor=pointer]:
+                      - /url: /checkout#
+              - generic [ref=f1e688]:
+                - link [ref=f1e689] [cursor=pointer]:
+                  - /url: /
+                  - img "logo" [ref=f1e691]
+                - paragraph [ref=f1e692]:
+                  - text: 53 Thành Thái, Phường Diên Hồng, TP. Hồ Chí Minh
+                  - generic [ref=f1e693]: "Tel : 096 607 70 88"
+                  - generic [ref=f1e694]: "Email : customerservice@vivastarcoffee.com"
+            - separator [ref=f1e695]
+            - generic [ref=f1e699]:
+              - generic [ref=f1e700]: Theo dõi chúng tôi
+              - list [ref=f1e701]:
+                - listitem [ref=f1e702]:
+                  - link "Social Link" [ref=f1e703] [cursor=pointer]:
+                    - /url: https://www.facebook.com/vivastarcoffee
+          - paragraph [ref=f1e708]: Bản quyền © 2026 Viva International. Đã đăng ký bản quyền.
+  - alert [ref=f1e4]: Viva International — Cà Phê Việt Nguyên Chất
+  - generic [ref=f1e711] [cursor=pointer]:
+    - generic [ref=f1e712]:
+      - heading [level=2] [ref=f1e713]
+      - button "Đóng" [ref=f1e718]
+    - generic [ref=f1e725]:
+      - link "Cà Phê Test MCP Cart" [ref=f1e726]:
+        - /url: /product/ca-phe-test-mcp-cart
+      - generic [ref=f1e727]: Đơn giá 50.000₫
+      - generic [ref=f1e728]:
+        - generic [ref=f1e729]: 50.000₫
+        - generic [ref=f1e731]:
+          - button [ref=f1e732]
+          - paragraph [ref=f1e735]: "1"
+          - button [ref=f1e736]
+        - button [ref=f1e739]
+    - button "Tiến hành thanh toán 50.000₫" [ref=f1e743]:
+      - generic [ref=f1e744]: Tiến hành thanh toán
+      - generic [ref=f1e745]: 50.000₫
+  - generic [ref=f1e750] [cursor=pointer]:
+    - button "Cà Phê Pha Máy" [ref=f1e751]
+    - button "Cà Phê Phin" [ref=f1e756]
+    - button "Cà Phê Hòa Tan" [ref=f1e761]

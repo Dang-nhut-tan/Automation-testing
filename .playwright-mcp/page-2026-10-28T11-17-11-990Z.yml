@@ -1,0 +1,213 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - button "Báo lỗi" [ref=f1e5] [cursor=pointer]:
+      - generic [aria-hidden] [ref=f1e6]: 🐞
+    - region "Notifications Alt+T"
+    - generic [ref=f1e8]:
+      - generic [ref=f1e11]:
+        - generic [ref=f1e12]:
+          - text: Hỗ trợ 24/7, cần giúp đỡ?
+          - link "096 607 70 88" [ref=f1e15] [cursor=pointer]:
+            - /url: tel:096 607 70 88
+        - generic [ref=f1e16]:
+          - link "Tài khoản của tôi" [ref=f1e17] [cursor=pointer]:
+            - /url: /user/my-account
+          - generic [ref=f1e18]: "|"
+          - link [ref=f1e19] [cursor=pointer]:
+            - /url: /auth/login
+      - generic [ref=f1e24]:
+        - generic [ref=f1e26]:
+          - generic [ref=f1e27]:
+            - button "Danh mục" [ref=f1e28] [cursor=pointer]
+            - generic [ref=f1e30]:
+              - 'textbox "Tìm sản phẩm (vd: cà phê phin, cà phê hoà tan...)" [ref=f1e31]'
+              - button "Tìm kiếm" [ref=f1e32] [cursor=pointer]
+          - link "Trang chủ Viva International" [ref=f1e36] [cursor=pointer]:
+            - /url: /
+            - img "Viva International" [ref=f1e38]
+          - generic [ref=f1e39]:
+            - link "Đăng nhập" [ref=f1e40] [cursor=pointer]:
+              - /url: /auth/login
+            - button "Giỏ hàng" [ref=f1e44] [cursor=pointer]:
+              - generic [ref=f1e45]: "1"
+        - generic [ref=f1e51]:
+          - navigation [ref=f1e56]:
+            - link "Giới thiệu" [ref=f1e57] [cursor=pointer]:
+              - /url: /about-us
+            - link "Liên hệ" [ref=f1e58] [cursor=pointer]:
+              - /url: /contact-us
+            - button "Trang" [ref=f1e60] [cursor=pointer]
+            - link [ref=f1e64] [cursor=pointer]:
+              - /url: /offer
+          - button "Tiếng Việt" [ref=f1e71] [cursor=pointer]
+      - generic [ref=f1e74]:
+        - list [ref=f1e76]:
+          - listitem [ref=f1e77] [cursor=pointer]:
+            - link "Trang chủ" [ref=f1e78]:
+              - /url: /
+          - listitem [ref=f1e79]
+          - listitem [ref=f1e82] [cursor=pointer]:
+            - link:
+              - /url: /search?category=&_id=undefined
+              - button
+          - listitem [ref=f1e83]
+          - listitem [ref=f1e86]: Cà Phê Test MCP Cart
+        - generic [ref=f1e88]:
+          - img "product Image" [ref=f1e90]
+          - generic [ref=f1e92]:
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]:
+                - heading "Cà Phê Test MCP Cart" [level=1] [ref=f1e95]
+                - paragraph [ref=f1e96]: "SKU :"
+                - generic [ref=f1e97]: Còn hàng
+              - generic [ref=f1e99]: 50.000₫
+              - generic [ref=f1e101]:
+                - generic [ref=f1e102]: Đang cập nhật thông tin
+                - generic [ref=f1e104]:
+                  - generic [ref=f1e105]:
+                    - button [disabled] [ref=f1e106]
+                    - paragraph [ref=f1e109]: "1"
+                    - button [ref=f1e110] [cursor=pointer]
+                  - button "Thêm vào giỏ" [ref=f1e113] [cursor=pointer]
+                - generic [ref=f1e115]:
+                  - generic [ref=f1e116]: "Danh mục:"
+                  - link [ref=f1e117] [cursor=pointer]:
+                    - /url: /search?category=&_id=undefined
+                    - button
+                - paragraph [ref=f1e119]: "Gọi đặt hàng qua số điện thoại: 096 607 70 88"
+                - generic [ref=f1e120]:
+                  - heading "Chia sẻ sản phẩm này" [level=3] [ref=f1e121]
+                  - paragraph [ref=f1e122]: Chia sẻ lên mạng xã hội để nhiều người biết đến sản phẩm hơn
+                  - list [ref=f1e123]:
+                    - listitem [ref=f1e124]:
+                      - button [ref=f1e125] [cursor=pointer]
+                    - listitem [ref=f1e129]:
+                      - button [ref=f1e130] [cursor=pointer]
+                    - listitem [ref=f1e134]:
+                      - button [ref=f1e135] [cursor=pointer]
+                    - listitem [ref=f1e139]:
+                      - button [ref=f1e140] [cursor=pointer]
+                    - listitem [ref=f1e144]:
+                      - button [ref=f1e145] [cursor=pointer]
+            - list [ref=f1e151]:
+              - listitem [ref=f1e152]:
+                - paragraph [ref=f1e159]: Miễn phí vận chuyển cho đơn hàng từ 500.000₫
+              - listitem [ref=f1e160]:
+                - paragraph [ref=f1e165]: Giao hàng nhanh trong 24 giờ
+              - listitem [ref=f1e166]:
+                - paragraph [ref=f1e170]: Hỗ trợ thanh toán khi nhận hàng (COD)
+              - listitem [ref=f1e171]:
+                - paragraph [ref=f1e178]: Đổi trả trong 7 ngày, hoàn tiền 100%
+              - listitem [ref=f1e179]:
+                - paragraph [ref=f1e185]: Sản phẩm này chưa áp dụng bảo hành
+              - listitem [ref=f1e186]:
+                - paragraph [ref=f1e194]: Cam kết 100% cà phê nguyên chất từ thiên nhiên
+              - listitem [ref=f1e195]:
+                - paragraph [ref=f1e200]: Giao hàng toàn quốc từ kho Viva International, Việt Nam.
+      - generic [ref=f1e201]:
+        - generic [ref=f1e204]:
+          - img "app download" [ref=f1e206]
+          - generic [ref=f1e207]:
+            - heading "Mua Sắm Cà Phê Mỗi Ngày Cùng Viva" [level=3] [ref=f1e208]
+            - paragraph [ref=f1e209]: Rất nhiều sản phẩm đang chờ bạn khám phá tại cửa hàng Viva. Chọn sản phẩm cà phê yêu thích và nhận ưu đãi đặc biệt.
+            - generic [ref=f1e210]:
+              - link [ref=f1e211] [cursor=pointer]:
+                - /url: https://www.apple.com/app-store/
+                - img "app store" [ref=f1e212]
+              - link [ref=f1e213] [cursor=pointer]:
+                - /url: https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Jun0122&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-lk-1003227-med-hasem-py-Evergreen-Jun0122-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700071429441653_creativeid_600975795576_device_c&gclid=CjwKCAjwwo-WBhAMEiwAV4dybdy60tnQqCSnQ-cXShNnEcxmaBx2I6iwwc_WEqoA5sN9YSLJEXh9fBoC3u4QAvD_BwE&gclsrc=aw.ds
+                - img "play store" [ref=f1e214]
+          - img "app download" [ref=f1e217]
+        - generic [ref=f1e219]:
+          - generic [ref=f1e220]: Miễn Phí Vận Chuyển Từ 500.000₫
+          - generic [ref=f1e229]: Hỗ Trợ 24/7 Mọi Lúc
+          - generic [ref=f1e235]: Thanh Toán An Toàn, Bảo Mật Tuyệt Đối
+          - generic [ref=f1e241]: Ưu Đãi Mới Nhất, Giảm Đến 20%
+        - separator [ref=f1e250]
+        - generic [ref=f1e252]:
+          - generic [ref=f1e253]:
+            - generic [ref=f1e254]:
+              - generic [ref=f1e255]:
+                - heading "Công Ty" [level=3] [ref=f1e256]
+                - list [ref=f1e257]:
+                  - listitem [ref=f1e258]:
+                    - link "Giới Thiệu" [ref=f1e259] [cursor=pointer]:
+                      - /url: /about-us
+                  - listitem [ref=f1e260]:
+                    - link "Liên Hệ" [ref=f1e261] [cursor=pointer]:
+                      - /url: /contact-us
+                  - listitem [ref=f1e262]:
+                    - link "Tuyển Dụng" [ref=f1e263] [cursor=pointer]:
+                      - /url: /product/ca-phe-test-mcp-cart#
+                  - listitem [ref=f1e264]:
+                    - link "Tin Tức Mới Nhất" [ref=f1e265] [cursor=pointer]:
+                      - /url: /product/ca-phe-test-mcp-cart#
+              - generic [ref=f1e266]:
+                - heading "Danh Mục Nổi Bật" [level=3] [ref=f1e267]
+                - list [ref=f1e268]:
+                  - listitem [ref=f1e269]:
+                    - link "Cà Phê Pha Máy" [ref=f1e270] [cursor=pointer]:
+                      - /url: /search
+                  - listitem [ref=f1e271]:
+                    - link "Cà Phê Phin" [ref=f1e272] [cursor=pointer]:
+                      - /url: /search
+                  - listitem [ref=f1e273]:
+                    - link "Cà Phê Hòa Tan" [ref=f1e274] [cursor=pointer]:
+                      - /url: /search
+                  - listitem [ref=f1e275]:
+                    - link "Cà Phê Rang Xay" [ref=f1e276] [cursor=pointer]:
+                      - /url: /search
+              - generic [ref=f1e277]:
+                - heading "Tài Khoản Của Tôi" [level=3] [ref=f1e278]
+                - list [ref=f1e279]:
+                  - listitem [ref=f1e280]:
+                    - link "Tổng Quan" [ref=f1e281] [cursor=pointer]:
+                      - /url: /product/ca-phe-test-mcp-cart#
+                  - listitem [ref=f1e282]:
+                    - link "Đơn Hàng Của Tôi" [ref=f1e283] [cursor=pointer]:
+                      - /url: /product/ca-phe-test-mcp-cart#
+                  - listitem [ref=f1e284]:
+                    - link "Đơn Hàng Gần Đây" [ref=f1e285] [cursor=pointer]:
+                      - /url: /product/ca-phe-test-mcp-cart#
+                  - listitem [ref=f1e286]:
+                    - link "Cập Nhật Hồ Sơ" [ref=f1e287] [cursor=pointer]:
+                      - /url: /product/ca-phe-test-mcp-cart#
+              - generic [ref=f1e288]:
+                - link [ref=f1e289] [cursor=pointer]:
+                  - /url: /
+                  - img "logo" [ref=f1e291]
+                - paragraph [ref=f1e292]:
+                  - text: 53 Thành Thái, Phường Diên Hồng, TP. Hồ Chí Minh
+                  - generic [ref=f1e293]: "Tel : 096 607 70 88"
+                  - generic [ref=f1e294]: "Email : customerservice@vivastarcoffee.com"
+            - separator [ref=f1e295]
+            - generic [ref=f1e299]:
+              - generic [ref=f1e300]: Theo dõi chúng tôi
+              - list [ref=f1e301]:
+                - listitem [ref=f1e302]:
+                  - link "Social Link" [ref=f1e303] [cursor=pointer]:
+                    - /url: https://www.facebook.com/vivastarcoffee
+          - paragraph [ref=f1e308]: Bản quyền © 2026 Viva International. Đã đăng ký bản quyền.
+  - alert [ref=f1e4]
+  - generic [ref=f1e313] [cursor=pointer]:
+    - button "Cà Phê Pha Máy" [ref=f1e314]
+    - button "Cà Phê Phin" [ref=f1e319]
+    - button "Cà Phê Hòa Tan" [ref=f1e324]
+  - generic [ref=f1e331] [cursor=pointer]:
+    - generic [ref=f1e332]:
+      - heading [level=2] [ref=f1e333]
+      - button "Đóng" [ref=f1e338]
+    - generic [ref=f1e358]:
+      - link "Cà Phê Test MCP Cart" [ref=f1e359]:
+        - /url: /product/ca-phe-test-mcp-cart
+      - generic [ref=f1e360]: Đơn giá 50.000₫
+      - generic [ref=f1e361]:
+        - generic [ref=f1e362]: 50.000₫
+        - generic [ref=f1e364]:
+          - button [ref=f1e365]
+          - paragraph [ref=f1e368]: "1"
+          - button [ref=f1e369]
+        - button [ref=f1e372]
+    - button "Tiến hành thanh toán 50.000₫" [ref=f1e375]:
+      - generic [ref=f1e353]: Tiến hành thanh toán
+      - generic [ref=f1e376]: 50.000₫
