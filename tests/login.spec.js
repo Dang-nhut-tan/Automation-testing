@@ -20,8 +20,13 @@ test.describe("Đăng nhập", () => {
 
   test("Đăng nhập thành công", async ({ page }) => {
     await test.step("Điền thông tin đăng nhập", async () => {
-      await loginPage.fillEmail(EMAIL);
+
+      await loginPage.fillEmail("");
       await loginPage.fillPassword(PASSWORD);
+      await expect(page).toHaveScreenshot("login-form.png", {
+        mask: [loginPage.loginImage],
+        maskColor: "#000000",
+      });
     });
 
     await test.step("Gửi thông tin và kiểm tra đăng nhập thành công", async () => {

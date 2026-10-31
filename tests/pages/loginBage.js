@@ -5,6 +5,7 @@ export class LoginPage extends BasePage {
 
   constructor(page) {
     super(page);
+    this.loginImage = page.getByAltText("Office");
     this.emailInput = page.getByPlaceholder("ten@viva.vn");
     this.passWord = page.locator('[name="password"]');
     this.loginButton = page.getByRole("button", {
